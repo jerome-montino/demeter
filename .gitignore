@@ -1,0 +1,13 @@
+*.pyc
+credentials/*
+credentials/*
+downloads/*
+
+.env
+env/
+dist/
+*demeter.egg-info/
+build/
+
+.DS_Store
+__pycache__/
