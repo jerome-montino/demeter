@@ -9,8 +9,8 @@ install_requires = [
 
 setup(
     name='python-demeter',
-	version='0.1.0',
-	description='Extremely limited library for downloading files from Google Drive.',
+	version='0.2.0',
+	description='Extremely limited library for downloading from and uploading files to Google Drive.',
 	author='Jerome Montino',
     author_email='jerome.montino@gmail.com',
     url='https://github.com/jerome-montino/demeter',
