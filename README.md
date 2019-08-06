@@ -1,5 +1,6 @@
 # Demeter
-Extremely limited library for downloading files from Google Drive.
+
+Extremely limited library for downloading from and uploading files to Google Drive.
 
 ## Prerequisites
 
@@ -30,7 +31,8 @@ $ for item in items:
 > ...
 $ file_id = items[0]['id']
 $ dm.download_file(file_id, 'text/csv', 'sample.csv')
-$
+$ f = dm.upload_file('sample.csv', file_path, 'txt/csv')
+$ dm.give_domain_permission(f.get('id'), 'writer', 'example.com', True)
 ```
 
 ## License
