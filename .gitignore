@@ -11,3 +11,4 @@ build/
 
 .DS_Store
 __pycache__/
+*_dummy.py
